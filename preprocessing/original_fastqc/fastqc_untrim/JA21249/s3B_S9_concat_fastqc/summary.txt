@@ -1,0 +1,12 @@
+PASS	Basic Statistics	s3B_S9_concat.fastq
+PASS	Per base sequence quality	s3B_S9_concat.fastq
+PASS	Per tile sequence quality	s3B_S9_concat.fastq
+PASS	Per sequence quality scores	s3B_S9_concat.fastq
+FAIL	Per base sequence content	s3B_S9_concat.fastq
+FAIL	Per sequence GC content	s3B_S9_concat.fastq
+PASS	Per base N content	s3B_S9_concat.fastq
+PASS	Sequence Length Distribution	s3B_S9_concat.fastq
+WARN	Sequence Duplication Levels	s3B_S9_concat.fastq
+WARN	Overrepresented sequences	s3B_S9_concat.fastq
+PASS	Adapter Content	s3B_S9_concat.fastq
+FAIL	Kmer Content	s3B_S9_concat.fastq

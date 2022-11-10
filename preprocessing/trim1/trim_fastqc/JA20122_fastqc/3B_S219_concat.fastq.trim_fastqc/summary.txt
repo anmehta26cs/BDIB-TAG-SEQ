@@ -1,0 +1,12 @@
+PASS	Basic Statistics	3B_S219_concat.fastq.trim
+PASS	Per base sequence quality	3B_S219_concat.fastq.trim
+WARN	Per tile sequence quality	3B_S219_concat.fastq.trim
+PASS	Per sequence quality scores	3B_S219_concat.fastq.trim
+FAIL	Per base sequence content	3B_S219_concat.fastq.trim
+PASS	Per sequence GC content	3B_S219_concat.fastq.trim
+PASS	Per base N content	3B_S219_concat.fastq.trim
+WARN	Sequence Length Distribution	3B_S219_concat.fastq.trim
+PASS	Sequence Duplication Levels	3B_S219_concat.fastq.trim
+WARN	Overrepresented sequences	3B_S219_concat.fastq.trim
+PASS	Adapter Content	3B_S219_concat.fastq.trim
+WARN	Kmer Content	3B_S219_concat.fastq.trim

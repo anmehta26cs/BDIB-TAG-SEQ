@@ -1,0 +1,12 @@
+PASS	Basic Statistics	3-8_S250_concat.fastq.trim2
+PASS	Per base sequence quality	3-8_S250_concat.fastq.trim2
+FAIL	Per tile sequence quality	3-8_S250_concat.fastq.trim2
+PASS	Per sequence quality scores	3-8_S250_concat.fastq.trim2
+FAIL	Per base sequence content	3-8_S250_concat.fastq.trim2
+PASS	Per sequence GC content	3-8_S250_concat.fastq.trim2
+PASS	Per base N content	3-8_S250_concat.fastq.trim2
+WARN	Sequence Length Distribution	3-8_S250_concat.fastq.trim2
+WARN	Sequence Duplication Levels	3-8_S250_concat.fastq.trim2
+PASS	Overrepresented sequences	3-8_S250_concat.fastq.trim2
+PASS	Adapter Content	3-8_S250_concat.fastq.trim2
+WARN	Kmer Content	3-8_S250_concat.fastq.trim2

@@ -1,0 +1,12 @@
+PASS	Basic Statistics	s3-7_S33_concat.fastq
+PASS	Per base sequence quality	s3-7_S33_concat.fastq
+PASS	Per tile sequence quality	s3-7_S33_concat.fastq
+PASS	Per sequence quality scores	s3-7_S33_concat.fastq
+FAIL	Per base sequence content	s3-7_S33_concat.fastq
+FAIL	Per sequence GC content	s3-7_S33_concat.fastq
+PASS	Per base N content	s3-7_S33_concat.fastq
+PASS	Sequence Length Distribution	s3-7_S33_concat.fastq
+WARN	Sequence Duplication Levels	s3-7_S33_concat.fastq
+PASS	Overrepresented sequences	s3-7_S33_concat.fastq
+PASS	Adapter Content	s3-7_S33_concat.fastq
+FAIL	Kmer Content	s3-7_S33_concat.fastq

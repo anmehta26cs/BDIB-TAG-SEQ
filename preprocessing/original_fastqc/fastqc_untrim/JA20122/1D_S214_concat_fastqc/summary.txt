@@ -1,0 +1,12 @@
+PASS	Basic Statistics	1D_S214_concat.fastq
+PASS	Per base sequence quality	1D_S214_concat.fastq
+PASS	Per tile sequence quality	1D_S214_concat.fastq
+PASS	Per sequence quality scores	1D_S214_concat.fastq
+FAIL	Per base sequence content	1D_S214_concat.fastq
+FAIL	Per sequence GC content	1D_S214_concat.fastq
+PASS	Per base N content	1D_S214_concat.fastq
+PASS	Sequence Length Distribution	1D_S214_concat.fastq
+WARN	Sequence Duplication Levels	1D_S214_concat.fastq
+WARN	Overrepresented sequences	1D_S214_concat.fastq
+PASS	Adapter Content	1D_S214_concat.fastq
+FAIL	Kmer Content	1D_S214_concat.fastq

@@ -1,0 +1,12 @@
+PASS	Basic Statistics	1-8_S240_concat.fastq.trim
+PASS	Per base sequence quality	1-8_S240_concat.fastq.trim
+WARN	Per tile sequence quality	1-8_S240_concat.fastq.trim
+PASS	Per sequence quality scores	1-8_S240_concat.fastq.trim
+FAIL	Per base sequence content	1-8_S240_concat.fastq.trim
+WARN	Per sequence GC content	1-8_S240_concat.fastq.trim
+PASS	Per base N content	1-8_S240_concat.fastq.trim
+WARN	Sequence Length Distribution	1-8_S240_concat.fastq.trim
+PASS	Sequence Duplication Levels	1-8_S240_concat.fastq.trim
+WARN	Overrepresented sequences	1-8_S240_concat.fastq.trim
+PASS	Adapter Content	1-8_S240_concat.fastq.trim
+WARN	Kmer Content	1-8_S240_concat.fastq.trim

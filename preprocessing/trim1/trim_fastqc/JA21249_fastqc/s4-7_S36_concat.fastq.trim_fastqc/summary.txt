@@ -1,0 +1,12 @@
+PASS	Basic Statistics	s4-7_S36_concat.fastq.trim
+PASS	Per base sequence quality	s4-7_S36_concat.fastq.trim
+PASS	Per tile sequence quality	s4-7_S36_concat.fastq.trim
+PASS	Per sequence quality scores	s4-7_S36_concat.fastq.trim
+FAIL	Per base sequence content	s4-7_S36_concat.fastq.trim
+WARN	Per sequence GC content	s4-7_S36_concat.fastq.trim
+PASS	Per base N content	s4-7_S36_concat.fastq.trim
+WARN	Sequence Length Distribution	s4-7_S36_concat.fastq.trim
+FAIL	Sequence Duplication Levels	s4-7_S36_concat.fastq.trim
+PASS	Overrepresented sequences	s4-7_S36_concat.fastq.trim
+PASS	Adapter Content	s4-7_S36_concat.fastq.trim
+FAIL	Kmer Content	s4-7_S36_concat.fastq.trim

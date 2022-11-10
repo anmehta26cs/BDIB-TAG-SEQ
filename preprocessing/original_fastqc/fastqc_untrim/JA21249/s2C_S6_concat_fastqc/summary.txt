@@ -1,0 +1,12 @@
+PASS	Basic Statistics	s2C_S6_concat.fastq
+PASS	Per base sequence quality	s2C_S6_concat.fastq
+PASS	Per tile sequence quality	s2C_S6_concat.fastq
+PASS	Per sequence quality scores	s2C_S6_concat.fastq
+FAIL	Per base sequence content	s2C_S6_concat.fastq
+FAIL	Per sequence GC content	s2C_S6_concat.fastq
+PASS	Per base N content	s2C_S6_concat.fastq
+PASS	Sequence Length Distribution	s2C_S6_concat.fastq
+FAIL	Sequence Duplication Levels	s2C_S6_concat.fastq
+PASS	Overrepresented sequences	s2C_S6_concat.fastq
+PASS	Adapter Content	s2C_S6_concat.fastq
+FAIL	Kmer Content	s2C_S6_concat.fastq

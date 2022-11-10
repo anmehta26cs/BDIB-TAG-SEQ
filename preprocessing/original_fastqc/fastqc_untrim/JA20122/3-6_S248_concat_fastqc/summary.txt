@@ -1,0 +1,12 @@
+PASS	Basic Statistics	3-6_S248_concat.fastq
+PASS	Per base sequence quality	3-6_S248_concat.fastq
+PASS	Per tile sequence quality	3-6_S248_concat.fastq
+PASS	Per sequence quality scores	3-6_S248_concat.fastq
+FAIL	Per base sequence content	3-6_S248_concat.fastq
+FAIL	Per sequence GC content	3-6_S248_concat.fastq
+PASS	Per base N content	3-6_S248_concat.fastq
+PASS	Sequence Length Distribution	3-6_S248_concat.fastq
+FAIL	Sequence Duplication Levels	3-6_S248_concat.fastq
+FAIL	Overrepresented sequences	3-6_S248_concat.fastq
+PASS	Adapter Content	3-6_S248_concat.fastq
+FAIL	Kmer Content	3-6_S248_concat.fastq

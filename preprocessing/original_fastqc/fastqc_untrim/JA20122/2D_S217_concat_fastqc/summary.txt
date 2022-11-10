@@ -1,0 +1,12 @@
+PASS	Basic Statistics	2D_S217_concat.fastq
+PASS	Per base sequence quality	2D_S217_concat.fastq
+PASS	Per tile sequence quality	2D_S217_concat.fastq
+PASS	Per sequence quality scores	2D_S217_concat.fastq
+FAIL	Per base sequence content	2D_S217_concat.fastq
+FAIL	Per sequence GC content	2D_S217_concat.fastq
+PASS	Per base N content	2D_S217_concat.fastq
+PASS	Sequence Length Distribution	2D_S217_concat.fastq
+WARN	Sequence Duplication Levels	2D_S217_concat.fastq
+FAIL	Overrepresented sequences	2D_S217_concat.fastq
+PASS	Adapter Content	2D_S217_concat.fastq
+FAIL	Kmer Content	2D_S217_concat.fastq

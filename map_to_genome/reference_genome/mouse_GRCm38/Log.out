@@ -1,0 +1,405 @@
+STAR version=STAR_2.5.4b
+STAR compilation time,server,dir=<not set in Debian>
+##### DEFAULT parameters:
+versionSTAR                       20201
+versionGenome                     20101   20200   
+parametersFiles                   -   
+sysShell                          -
+runMode                           alignReads
+runThreadN                        1
+runDirPerm                        User_RWX
+runRNGseed                        777
+genomeDir                         ./GenomeDir/
+genomeLoad                        NoSharedMemory
+genomeFastaFiles                  -   
+genomeChainFiles                  -   
+genomeSAindexNbases               14
+genomeChrBinNbits                 18
+genomeSAsparseD                   1
+genomeSuffixLengthMax             18446744073709551615
+genomeFileSizes                   0   
+genomeConsensusFile               -
+readFilesType                     Fastx   
+readFilesIn                       Read1   Read2   
+readFilesPrefix                   -
+readFilesCommand                  -   
+readMatesLengthsIn                NotEqual
+readMapNumber                     18446744073709551615
+readNameSeparator                 /   
+inputBAMfile                      -
+bamRemoveDuplicatesType           -
+bamRemoveDuplicatesMate2basesN    0
+limitGenomeGenerateRAM            31000000000
+limitIObufferSize                 150000000
+limitOutSAMoneReadBytes           100000
+limitOutSJcollapsed               1000000
+limitOutSJoneRead                 1000
+limitBAMsortRAM                   0
+limitSjdbInsertNsj                1000000
+outFileNamePrefix                 ./
+outTmpDir                         -
+outTmpKeep                        None
+outStd                            Log
+outReadsUnmapped                  None
+outQSconversionAdd                0
+outMultimapperOrder               Old_2.4
+outSAMtype                        SAM   
+outSAMmode                        Full
+outSAMstrandField                 None
+outSAMattributes                  Standard   
+outSAMunmapped                    None   
+outSAMorder                       Paired
+outSAMprimaryFlag                 OneBestScore
+outSAMreadID                      Standard
+outSAMmapqUnique                  255
+outSAMflagOR                      0
+outSAMflagAND                     65535
+outSAMattrRGline                  -   
+outSAMheaderHD                    -   
+outSAMheaderPG                    -   
+outSAMheaderCommentFile           -
+outBAMcompression                 1
+outBAMsortingThreadN              0
+outSAMfilter                      None   
+outSAMmultNmax                    18446744073709551615
+outSAMattrIHstart                 1
+outSJfilterReads                  All
+outSJfilterCountUniqueMin         3   1   1   1   
+outSJfilterCountTotalMin          3   1   1   1   
+outSJfilterOverhangMin            30   12   12   12   
+outSJfilterDistToOtherSJmin       10   0   5   10   
+outSJfilterIntronMaxVsReadN       50000   100000   200000   
+outWigType                        None   
+outWigStrand                      Stranded   
+outWigReferencesPrefix            -
+outWigNorm                        RPM   
+outFilterType                     Normal
+outFilterMultimapNmax             10
+outFilterMultimapScoreRange       1
+outFilterScoreMin                 0
+outFilterScoreMinOverLread        0.66
+outFilterMatchNmin                0
+outFilterMatchNminOverLread       0.66
+outFilterMismatchNmax             10
+outFilterMismatchNoverLmax        0.3
+outFilterMismatchNoverReadLmax    1
+outFilterIntronMotifs             None
+outFilterIntronStrands            RemoveInconsistentStrands
+clip5pNbases                      0   
+clip3pNbases                      0   
+clip3pAfterAdapterNbases          0   
+clip3pAdapterSeq                  -   
+clip3pAdapterMMp                  0.1   
+winBinNbits                       16
+winAnchorDistNbins                9
+winFlankNbins                     4
+winAnchorMultimapNmax             50
+winReadCoverageRelativeMin        0.5
+winReadCoverageBasesMin           0
+scoreGap                          0
+scoreGapNoncan                    -8
+scoreGapGCAG                      -4
+scoreGapATAC                      -8
+scoreStitchSJshift                1
+scoreGenomicLengthLog2scale       -0.25
+scoreDelBase                      -2
+scoreDelOpen                      -2
+scoreInsOpen                      -2
+scoreInsBase                      -2
+seedSearchLmax                    0
+seedSearchStartLmax               50
+seedSearchStartLmaxOverLread      1
+seedPerReadNmax                   1000
+seedPerWindowNmax                 50
+seedNoneLociPerWindow             10
+seedMultimapNmax                  10000
+seedSplitMin                      12
+alignIntronMin                    21
+alignIntronMax                    0
+alignMatesGapMax                  0
+alignTranscriptsPerReadNmax       10000
+alignSJoverhangMin                5
+alignSJDBoverhangMin              3
+alignSJstitchMismatchNmax         0   -1   0   0   
+alignSplicedMateMapLmin           0
+alignSplicedMateMapLminOverLmate    0.66
+alignWindowsPerReadNmax           10000
+alignTranscriptsPerWindowNmax     100
+alignEndsType                     Local
+alignSoftClipAtReferenceEnds      Yes
+alignEndsProtrude                 0   ConcordantPair   
+chimSegmentMin                    0
+chimScoreMin                      0
+chimScoreDropMax                  20
+chimScoreSeparation               10
+chimScoreJunctionNonGTAG          -1
+chimMainSegmentMultNmax           10
+chimJunctionOverhangMin           20
+chimOutType                       SeparateSAMold   
+chimFilter                        banGenomicN   
+chimSegmentReadGapMax             0
+sjdbFileChrStartEnd               -   
+sjdbGTFfile                       -
+sjdbGTFchrPrefix                  -
+sjdbGTFfeatureExon                exon
+sjdbGTFtagExonParentTranscript    transcript_id
+sjdbGTFtagExonParentGene          gene_id
+sjdbOverhang                      100
+sjdbScore                         2
+sjdbInsertSave                    Basic
+quantMode                         -   
+quantTranscriptomeBAMcompression    1
+quantTranscriptomeBan             IndelSoftclipSingleend
+twopass1readsN                    18446744073709551615
+twopassMode                       None
+##### Command Line:
+STAR --runMode genomeGenerate --genomeDir STAR_genome/ --genomeFastaFiles GRCm38.primary_assembly.genome.fa --sjdbGTFfile gencode.vM19.annotation.gtf --sjdbOverhang 74 --genomeChrBinNbits 14
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runMode                       genomeGenerate     ~RE-DEFINED
+genomeDir                     STAR_genome/     ~RE-DEFINED
+genomeFastaFiles              GRCm38.primary_assembly.genome.fa        ~RE-DEFINED
+sjdbGTFfile                   gencode.vM19.annotation.gtf     ~RE-DEFINED
+sjdbOverhang                  74     ~RE-DEFINED
+genomeChrBinNbits             14     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate
+genomeDir                         STAR_genome/
+genomeFastaFiles                  GRCm38.primary_assembly.genome.fa   
+genomeChrBinNbits                 14
+sjdbGTFfile                       gencode.vM19.annotation.gtf
+sjdbOverhang                      74
+
+-------------------------------
+##### Final effective command line:
+STAR   --runMode genomeGenerate   --genomeDir STAR_genome/   --genomeFastaFiles GRCm38.primary_assembly.genome.fa      --genomeChrBinNbits 14   --sjdbGTFfile gencode.vM19.annotation.gtf   --sjdbOverhang 74
+
+##### Final parameters after user input--------------------------------:
+versionSTAR                       20201
+versionGenome                     20101   20200   
+parametersFiles                   -   
+sysShell                          -
+runMode                           genomeGenerate
+runThreadN                        1
+runDirPerm                        User_RWX
+runRNGseed                        777
+genomeDir                         STAR_genome/
+genomeLoad                        NoSharedMemory
+genomeFastaFiles                  GRCm38.primary_assembly.genome.fa   
+genomeChainFiles                  -   
+genomeSAindexNbases               14
+genomeChrBinNbits                 14
+genomeSAsparseD                   1
+genomeSuffixLengthMax             18446744073709551615
+genomeFileSizes                   0   
+genomeConsensusFile               -
+readFilesType                     Fastx   
+readFilesIn                       Read1   Read2   
+readFilesPrefix                   -
+readFilesCommand                  -   
+readMatesLengthsIn                NotEqual
+readMapNumber                     18446744073709551615
+readNameSeparator                 /   
+inputBAMfile                      -
+bamRemoveDuplicatesType           -
+bamRemoveDuplicatesMate2basesN    0
+limitGenomeGenerateRAM            31000000000
+limitIObufferSize                 150000000
+limitOutSAMoneReadBytes           100000
+limitOutSJcollapsed               1000000
+limitOutSJoneRead                 1000
+limitBAMsortRAM                   0
+limitSjdbInsertNsj                1000000
+outFileNamePrefix                 ./
+outTmpDir                         -
+outTmpKeep                        None
+outStd                            Log
+outReadsUnmapped                  None
+outQSconversionAdd                0
+outMultimapperOrder               Old_2.4
+outSAMtype                        SAM   
+outSAMmode                        Full
+outSAMstrandField                 None
+outSAMattributes                  Standard   
+outSAMunmapped                    None   
+outSAMorder                       Paired
+outSAMprimaryFlag                 OneBestScore
+outSAMreadID                      Standard
+outSAMmapqUnique                  255
+outSAMflagOR                      0
+outSAMflagAND                     65535
+outSAMattrRGline                  -   
+outSAMheaderHD                    -   
+outSAMheaderPG                    -   
+outSAMheaderCommentFile           -
+outBAMcompression                 1
+outBAMsortingThreadN              0
+outSAMfilter                      None   
+outSAMmultNmax                    18446744073709551615
+outSAMattrIHstart                 1
+outSJfilterReads                  All
+outSJfilterCountUniqueMin         3   1   1   1   
+outSJfilterCountTotalMin          3   1   1   1   
+outSJfilterOverhangMin            30   12   12   12   
+outSJfilterDistToOtherSJmin       10   0   5   10   
+outSJfilterIntronMaxVsReadN       50000   100000   200000   
+outWigType                        None   
+outWigStrand                      Stranded   
+outWigReferencesPrefix            -
+outWigNorm                        RPM   
+outFilterType                     Normal
+outFilterMultimapNmax             10
+outFilterMultimapScoreRange       1
+outFilterScoreMin                 0
+outFilterScoreMinOverLread        0.66
+outFilterMatchNmin                0
+outFilterMatchNminOverLread       0.66
+outFilterMismatchNmax             10
+outFilterMismatchNoverLmax        0.3
+outFilterMismatchNoverReadLmax    1
+outFilterIntronMotifs             None
+outFilterIntronStrands            RemoveInconsistentStrands
+clip5pNbases                      0   
+clip3pNbases                      0   
+clip3pAfterAdapterNbases          0   
+clip3pAdapterSeq                  -   
+clip3pAdapterMMp                  0.1   
+winBinNbits                       16
+winAnchorDistNbins                9
+winFlankNbins                     4
+winAnchorMultimapNmax             50
+winReadCoverageRelativeMin        0.5
+winReadCoverageBasesMin           0
+scoreGap                          0
+scoreGapNoncan                    -8
+scoreGapGCAG                      -4
+scoreGapATAC                      -8
+scoreStitchSJshift                1
+scoreGenomicLengthLog2scale       -0.25
+scoreDelBase                      -2
+scoreDelOpen                      -2
+scoreInsOpen                      -2
+scoreInsBase                      -2
+seedSearchLmax                    0
+seedSearchStartLmax               50
+seedSearchStartLmaxOverLread      1
+seedPerReadNmax                   1000
+seedPerWindowNmax                 50
+seedNoneLociPerWindow             10
+seedMultimapNmax                  10000
+seedSplitMin                      12
+alignIntronMin                    21
+alignIntronMax                    0
+alignMatesGapMax                  0
+alignTranscriptsPerReadNmax       10000
+alignSJoverhangMin                5
+alignSJDBoverhangMin              3
+alignSJstitchMismatchNmax         0   -1   0   0   
+alignSplicedMateMapLmin           0
+alignSplicedMateMapLminOverLmate    0.66
+alignWindowsPerReadNmax           10000
+alignTranscriptsPerWindowNmax     100
+alignEndsType                     Local
+alignSoftClipAtReferenceEnds      Yes
+alignEndsProtrude                 0   ConcordantPair   
+chimSegmentMin                    0
+chimScoreMin                      0
+chimScoreDropMax                  20
+chimScoreSeparation               10
+chimScoreJunctionNonGTAG          -1
+chimMainSegmentMultNmax           10
+chimJunctionOverhangMin           20
+chimOutType                       SeparateSAMold   
+chimFilter                        banGenomicN   
+chimSegmentReadGapMax             0
+sjdbFileChrStartEnd               -   
+sjdbGTFfile                       gencode.vM19.annotation.gtf
+sjdbGTFchrPrefix                  -
+sjdbGTFfeatureExon                exon
+sjdbGTFtagExonParentTranscript    transcript_id
+sjdbGTFtagExonParentGene          gene_id
+sjdbOverhang                      74
+sjdbScore                         2
+sjdbInsertSave                    Basic
+quantMode                         -   
+quantTranscriptomeBAMcompression    1
+quantTranscriptomeBan             IndelSoftclipSingleend
+twopass1readsN                    18446744073709551615
+twopassMode                       None
+----------------------------------------
+
+Finished loading and checking parameters
+Oct 06 16:47:45 ... starting to generate Genome files
+GRCm38.primary_assembly.genome.fa : chr # 0  "chr1" chrStart: 0
+GRCm38.primary_assembly.genome.fa : chr # 1  "chr2" chrStart: 195477504
+GRCm38.primary_assembly.genome.fa : chr # 2  "chr3" chrStart: 377602048
+GRCm38.primary_assembly.genome.fa : chr # 3  "chr4" chrStart: 537657344
+GRCm38.primary_assembly.genome.fa : chr # 4  "chr5" chrStart: 694173696
+GRCm38.primary_assembly.genome.fa : chr # 5  "chr6" chrStart: 846020608
+GRCm38.primary_assembly.genome.fa : chr # 6  "chr7" chrStart: 995770368
+GRCm38.primary_assembly.genome.fa : chr # 7  "chr8" chrStart: 1141227520
+GRCm38.primary_assembly.genome.fa : chr # 8  "chr9" chrStart: 1270644736
+GRCm38.primary_assembly.genome.fa : chr # 9  "chr10" chrStart: 1395245056
+GRCm38.primary_assembly.genome.fa : chr # 10  "chr11" chrStart: 1525940224
+GRCm38.primary_assembly.genome.fa : chr # 11  "chr12" chrStart: 1648033792
+GRCm38.primary_assembly.genome.fa : chr # 12  "chr13" chrStart: 1768177664
+GRCm38.primary_assembly.genome.fa : chr # 13  "chr14" chrStart: 1888600064
+GRCm38.primary_assembly.genome.fa : chr # 14  "chr15" chrStart: 2013511680
+GRCm38.primary_assembly.genome.fa : chr # 15  "chr16" chrStart: 2117566464
+GRCm38.primary_assembly.genome.fa : chr # 16  "chr17" chrStart: 2215788544
+GRCm38.primary_assembly.genome.fa : chr # 17  "chr18" chrStart: 2310782976
+GRCm38.primary_assembly.genome.fa : chr # 18  "chr19" chrStart: 2401501184
+GRCm38.primary_assembly.genome.fa : chr # 19  "chrX" chrStart: 2462941184
+GRCm38.primary_assembly.genome.fa : chr # 20  "chrY" chrStart: 2633973760
+GRCm38.primary_assembly.genome.fa : chr # 21  "chrM" chrStart: 2725724160
+GRCm38.primary_assembly.genome.fa : chr # 22  "GL456210.1" chrStart: 2725740544
+GRCm38.primary_assembly.genome.fa : chr # 23  "GL456211.1" chrStart: 2725920768
+GRCm38.primary_assembly.genome.fa : chr # 24  "GL456212.1" chrStart: 2726166528
+GRCm38.primary_assembly.genome.fa : chr # 25  "GL456213.1" chrStart: 2726330368
+GRCm38.primary_assembly.genome.fa : chr # 26  "GL456216.1" chrStart: 2726379520
+GRCm38.primary_assembly.genome.fa : chr # 27  "GL456219.1" chrStart: 2726461440
+GRCm38.primary_assembly.genome.fa : chr # 28  "GL456221.1" chrStart: 2726641664
+GRCm38.primary_assembly.genome.fa : chr # 29  "GL456233.1" chrStart: 2726854656
+GRCm38.primary_assembly.genome.fa : chr # 30  "GL456239.1" chrStart: 2727198720
+GRCm38.primary_assembly.genome.fa : chr # 31  "GL456350.1" chrStart: 2727247872
+GRCm38.primary_assembly.genome.fa : chr # 32  "GL456354.1" chrStart: 2727477248
+GRCm38.primary_assembly.genome.fa : chr # 33  "GL456359.1" chrStart: 2727673856
+GRCm38.primary_assembly.genome.fa : chr # 34  "GL456360.1" chrStart: 2727706624
+GRCm38.primary_assembly.genome.fa : chr # 35  "GL456366.1" chrStart: 2727739392
+GRCm38.primary_assembly.genome.fa : chr # 36  "GL456367.1" chrStart: 2727788544
+GRCm38.primary_assembly.genome.fa : chr # 37  "GL456368.1" chrStart: 2727837696
+GRCm38.primary_assembly.genome.fa : chr # 38  "GL456370.1" chrStart: 2727870464
+GRCm38.primary_assembly.genome.fa : chr # 39  "GL456372.1" chrStart: 2727903232
+GRCm38.primary_assembly.genome.fa : chr # 40  "GL456378.1" chrStart: 2727936000
+GRCm38.primary_assembly.genome.fa : chr # 41  "GL456379.1" chrStart: 2727968768
+GRCm38.primary_assembly.genome.fa : chr # 42  "GL456381.1" chrStart: 2728050688
+GRCm38.primary_assembly.genome.fa : chr # 43  "GL456382.1" chrStart: 2728083456
+GRCm38.primary_assembly.genome.fa : chr # 44  "GL456383.1" chrStart: 2728116224
+GRCm38.primary_assembly.genome.fa : chr # 45  "GL456385.1" chrStart: 2728165376
+GRCm38.primary_assembly.genome.fa : chr # 46  "GL456387.1" chrStart: 2728214528
+GRCm38.primary_assembly.genome.fa : chr # 47  "GL456389.1" chrStart: 2728247296
+GRCm38.primary_assembly.genome.fa : chr # 48  "GL456390.1" chrStart: 2728280064
+GRCm38.primary_assembly.genome.fa : chr # 49  "GL456392.1" chrStart: 2728312832
+GRCm38.primary_assembly.genome.fa : chr # 50  "GL456393.1" chrStart: 2728345600
+GRCm38.primary_assembly.genome.fa : chr # 51  "GL456394.1" chrStart: 2728411136
+GRCm38.primary_assembly.genome.fa : chr # 52  "GL456396.1" chrStart: 2728443904
+GRCm38.primary_assembly.genome.fa : chr # 53  "JH584292.1" chrStart: 2728476672
+GRCm38.primary_assembly.genome.fa : chr # 54  "JH584293.1" chrStart: 2728493056
+GRCm38.primary_assembly.genome.fa : chr # 55  "JH584294.1" chrStart: 2728706048
+GRCm38.primary_assembly.genome.fa : chr # 56  "JH584295.1" chrStart: 2728902656
+GRCm38.primary_assembly.genome.fa : chr # 57  "JH584296.1" chrStart: 2728919040
+GRCm38.primary_assembly.genome.fa : chr # 58  "JH584297.1" chrStart: 2729132032
+GRCm38.primary_assembly.genome.fa : chr # 59  "JH584298.1" chrStart: 2729345024
+GRCm38.primary_assembly.genome.fa : chr # 60  "JH584299.1" chrStart: 2729541632
+GRCm38.primary_assembly.genome.fa : chr # 61  "JH584300.1" chrStart: 2730508288
+GRCm38.primary_assembly.genome.fa : chr # 62  "JH584301.1" chrStart: 2730704896
+GRCm38.primary_assembly.genome.fa : chr # 63  "JH584302.1" chrStart: 2730967040
+GRCm38.primary_assembly.genome.fa : chr # 64  "JH584303.1" chrStart: 2731130880
+GRCm38.primary_assembly.genome.fa : chr # 65  "JH584304.1" chrStart: 2731294720
+
+genomeGenerate.cpp:209:genomeGenerate: exiting because of *OUTPUT FILE* error: could not create output file STAR_genome//chrName.txt
+Solution: check that the path exists and you have write permission for this file
+
+Oct 06 16:48:18 ...... FATAL ERROR, exiting

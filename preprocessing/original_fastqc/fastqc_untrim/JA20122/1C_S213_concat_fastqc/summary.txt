@@ -1,0 +1,12 @@
+PASS	Basic Statistics	1C_S213_concat.fastq
+PASS	Per base sequence quality	1C_S213_concat.fastq
+PASS	Per tile sequence quality	1C_S213_concat.fastq
+PASS	Per sequence quality scores	1C_S213_concat.fastq
+FAIL	Per base sequence content	1C_S213_concat.fastq
+FAIL	Per sequence GC content	1C_S213_concat.fastq
+PASS	Per base N content	1C_S213_concat.fastq
+PASS	Sequence Length Distribution	1C_S213_concat.fastq
+WARN	Sequence Duplication Levels	1C_S213_concat.fastq
+WARN	Overrepresented sequences	1C_S213_concat.fastq
+PASS	Adapter Content	1C_S213_concat.fastq
+FAIL	Kmer Content	1C_S213_concat.fastq

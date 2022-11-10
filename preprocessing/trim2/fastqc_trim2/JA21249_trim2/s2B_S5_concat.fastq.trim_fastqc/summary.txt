@@ -1,0 +1,12 @@
+PASS	Basic Statistics	s2B_S5_concat.fastq.trim
+PASS	Per base sequence quality	s2B_S5_concat.fastq.trim
+FAIL	Per tile sequence quality	s2B_S5_concat.fastq.trim
+PASS	Per sequence quality scores	s2B_S5_concat.fastq.trim
+FAIL	Per base sequence content	s2B_S5_concat.fastq.trim
+WARN	Per sequence GC content	s2B_S5_concat.fastq.trim
+PASS	Per base N content	s2B_S5_concat.fastq.trim
+WARN	Sequence Length Distribution	s2B_S5_concat.fastq.trim
+FAIL	Sequence Duplication Levels	s2B_S5_concat.fastq.trim
+WARN	Overrepresented sequences	s2B_S5_concat.fastq.trim
+PASS	Adapter Content	s2B_S5_concat.fastq.trim
+WARN	Kmer Content	s2B_S5_concat.fastq.trim

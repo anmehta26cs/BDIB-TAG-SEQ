@@ -1,0 +1,12 @@
+PASS	Basic Statistics	4C_S222_concat.fastq.trim2
+PASS	Per base sequence quality	4C_S222_concat.fastq.trim2
+FAIL	Per tile sequence quality	4C_S222_concat.fastq.trim2
+PASS	Per sequence quality scores	4C_S222_concat.fastq.trim2
+FAIL	Per base sequence content	4C_S222_concat.fastq.trim2
+WARN	Per sequence GC content	4C_S222_concat.fastq.trim2
+PASS	Per base N content	4C_S222_concat.fastq.trim2
+WARN	Sequence Length Distribution	4C_S222_concat.fastq.trim2
+WARN	Sequence Duplication Levels	4C_S222_concat.fastq.trim2
+WARN	Overrepresented sequences	4C_S222_concat.fastq.trim2
+PASS	Adapter Content	4C_S222_concat.fastq.trim2
+FAIL	Kmer Content	4C_S222_concat.fastq.trim2

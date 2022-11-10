@@ -1,0 +1,15 @@
+### STAR   --runMode genomeGenerate   --genomeDir STAR_genome/   --genomeFastaFiles mouse_GRCm38/GRCm38.primary_assembly.genome.fa      --genomeChrBinNbits 14   --sjdbGTFfile mouse_GRCm38/gencode.vM19.annotation.gtf   --sjdbOverhang 74
+versionGenome	20201
+genomeFastaFiles	mouse_GRCm38/GRCm38.primary_assembly.genome.fa 
+genomeSAindexNbases	14
+genomeChrBinNbits	14
+genomeSAsparseD	1
+sjdbOverhang	74
+sjdbFileChrStartEnd	- 
+sjdbGTFfile	mouse_GRCm38/gencode.vM19.annotation.gtf
+sjdbGTFchrPrefix	-
+sjdbGTFfeatureExon	exon
+sjdbGTFtagExonParentTranscript	transcript_id
+sjdbGTFtagExonParentGene	gene_id
+sjdbInsertSave	Basic
+genomeFileSizes	2773215977 22228052446

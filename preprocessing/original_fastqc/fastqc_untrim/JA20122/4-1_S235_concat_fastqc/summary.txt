@@ -1,0 +1,12 @@
+PASS	Basic Statistics	4-1_S235_concat.fastq
+PASS	Per base sequence quality	4-1_S235_concat.fastq
+PASS	Per tile sequence quality	4-1_S235_concat.fastq
+PASS	Per sequence quality scores	4-1_S235_concat.fastq
+FAIL	Per base sequence content	4-1_S235_concat.fastq
+FAIL	Per sequence GC content	4-1_S235_concat.fastq
+PASS	Per base N content	4-1_S235_concat.fastq
+PASS	Sequence Length Distribution	4-1_S235_concat.fastq
+FAIL	Sequence Duplication Levels	4-1_S235_concat.fastq
+FAIL	Overrepresented sequences	4-1_S235_concat.fastq
+PASS	Adapter Content	4-1_S235_concat.fastq
+FAIL	Kmer Content	4-1_S235_concat.fastq
